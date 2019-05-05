@@ -2,7 +2,8 @@
 
 ## A color-picker web component 🎨
 
-Demo: todo gitpages link
+Demo: [https://jsmithdev.github.io/color-picker/](https://jsmithdev.github.io/color-picker/)
+
 Status: In Development
 
 Using [FlexiColorPicker](https://github.com/DavidDurman/FlexiColorPicker)
