@@ -4,25 +4,26 @@
 
         <script type="text/javascript" src="cp.js"></script>
 
-        <script type="module" src="color-picker/color-picker/color-picker.js"></script>
+        <script type="module" src="./color-picker/color-picker.js"></script>
 
     </head>
 
-    <body style="background: grey">
+    <body style="background: var(--color-main)">
         <color-picker color="#ee6f0a" theme="normal"></color-picker>
         <br />
         <br />
         <button id="test">Alert out the current color</button>
         <br />
         <br />
-        <button id="testb">Set background as current color</button>
+        <button id="testb">Set css varible used by page as current color</button>
     </body>
 
     <script why="demo">
+
         test.onclick = () => alert( document.querySelector('color-picker').getColor() )
 
         testb.onclick = () => 
-            document.body.style.backgroundColor = document.querySelector('color-picker').getColor()
+        document.documentElement.style.setProperty('--color-main', document.querySelector('color-picker').getColor())
         
     </script>
 </html>
