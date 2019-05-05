@@ -1,0 +1,21 @@
+<html style="background-color: grey">
+
+    <head>
+
+        <script type="text/javascript" src="cp.js"></script>
+
+        <script type="module" src="../color-picker/color-picker.js"></script>
+
+    </head>
+
+    <body>
+        <color-picker color="#ee6f0a" theme="normal"></color-picker>
+        <br />
+        <br />
+        <button id="test">Test log out the color</button>
+    </body>
+
+    <script why="demo">
+        test.onclick = () => console.log( document.querySelector('color-picker').getColor() )
+    </script>
+</html>
