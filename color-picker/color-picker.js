@@ -191,16 +191,10 @@ template.innerHTML = /*html*/`
         padding: 1rem;
         background-color: white;
     }
-    .txt {
-        background: white;
-        color:black;
-        /*mix-blend-mode: difference;*/
-    }
 </style>
 
 <div class="card">
     <div class="view">
-        <i class="txt">Preview</i>
         <div class="wrapper"></div>
     </div>
 </div>
