@@ -1,0 +1,27 @@
+{
+  "name": "wc-color-picker",
+  "version": "0.0.2",
+  "description": "A color picker web component",
+  "main": "color-picker/color-picker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmithdev/color-picker.git"
+  },
+  "keywords": [
+    "color",
+    "picker",
+    "web",
+    "component",
+    "web-components",
+    "web-component"
+  ],
+  "author": "Jamie Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsmithdev/color-picker/issues"
+  },
+  "homepage": "https://github.com/jsmithdev/color-picker#readme"
+}
