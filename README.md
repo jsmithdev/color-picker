@@ -10,9 +10,9 @@ The demo (index.html file) shows how to import, get/set color, etc as you might 
 
 Feel free to open an issue for more info
 
-## can install via npm
+## can install from [npm package](https://www.npmjs.com/package/wc-color-picker)
 
-```npm i -S wc-color-picker```
+```npm i wc-color-picker```
 
 ---
 
